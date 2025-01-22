@@ -1,0 +1,14 @@
+/* Import the common stylesheet */
+@import url('common.css');
+
+.profile-image {
+    display: block;
+    max-width: 200px;
+    margin: 20px auto;
+    border-radius: 60%;
+    border: 6px solid #ddd;
+}
+
+p.summary {
+    line-height: 1.3;
+}

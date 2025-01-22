@@ -1,0 +1,76 @@
+/* General Styling (common for both pages) */
+html, body {
+    font-family: Helvetica;
+    background-color: #eee;
+    height: 100%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1#name {
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+h2#job-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Container with 50% width and centered */
+.container {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the container */
+    box-sizing: border-box; /* Include padding and border in the width */
+    flex-grow: 1;
+}
+
+footer {
+    color: #fff;
+    padding: 20px 0;
+    width: 50%;
+    position: sticky;
+    bottom: 0;
+    margin: 0 auto; /* Ensures the footer stays at the bottom */
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: steelblue;
+}
+
+.main-content {
+    display: flex;
+}
+
+.column {
+    background-color: #ffffff;
+    flex: 1;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+}
+
+p {
+    line-height: normal;
+}

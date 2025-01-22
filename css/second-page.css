@@ -1,0 +1,33 @@
+/* Import the common stylesheet */
+@import url('common.css');
+
+nav {
+    background-color: #ffffff;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 24px;
+}
+
+li a {
+    font-size: larger;
+}
+
+section {
+    padding-top: 42px;
+}
+
+p.company, p.course {
+    font-weight: bold;
+}
